@@ -80,6 +80,7 @@ function shuffleCards(arr) {
   return arr;
 }
 
+//the variables to manipulate the DOM
 let gameDisplay = document.querySelector(".main");
 let timeBox = document.querySelector(".timer");
 let timer = document.querySelector(".timerNumber");
@@ -87,10 +88,13 @@ let modalBox = document.querySelector(".modalBox");
 let modal = document.querySelector(".modal");
 let msg = document.querySelector(".msg");
 let restart = document.querySelector(".restart");
+
+//the three arrays below keep track of the selected cards and whether they match or not
 let cardsChosen = [];
 let cardsChosenIds = [];
 let cardsWon = [];
 
+//the interval timer sets the timing of the game and what should happen at certain points of the game
 let gameTimer = setInterval(() => {
   let time = timer.textContent;
   time -= 1;
@@ -114,6 +118,7 @@ let gameTimer = setInterval(() => {
   }
 }, 1000);
 
+//the function belows checks if cards match or not
 function checkMatch() {
   let cards = document.querySelectorAll("img");
   let choiceOneId = cardsChosenIds.at(0);
@@ -133,6 +138,7 @@ function checkMatch() {
   }
 }
 
+//adds the different cards to the board by looping over the cardsArray and adding each card to the screen
 function createBoard() {
   for (let i = 0; i < cardsArray.length; i++) {
     let card = document.createElement("img");
@@ -145,6 +151,7 @@ function createBoard() {
   }
 }
 
+//the flipCard function flips a card when clicked. It is the callback function for the event handler for each card on the screen
 function flipCard() {
   let cardId = this.getAttribute("data-id");
   if (cardsChosenIds.includes(cardId)) {
