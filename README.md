@@ -5,4 +5,10 @@ The app was built using HTML, CSS and javaScript.
 
 ![image](https://github.com/johnnyd81/rugby-memory-game/assets/95863021/2d22e3a0-b9e1-4a03-acfe-40da370ab478)
 
+## Running the Code Locally
 
+Clone / Download the project to your computer.
+
+### Start the code
+
+Open up the folder in a desired text editor and browser.
