@@ -125,7 +125,9 @@ function checkMatch() {
   let choiceTwoId = cardsChosenIds.at(1);
 
   if (cardsChosen.at(0) === cardsChosen.at(1)) {
+    //the matching cards are added into the cardsWon array that eventually decides if all the cards are matched
     cardsWon = [...cardsWon, ...cardsChosen];
+    //if a pair of cards are matched then their click event handler is removed to prevent duplicate values in the cardsChosen array
     cards[choiceOneId].removeEventListener("click", flipCard);
     cards[choiceTwoId].removeEventListener("click", flipCard);
     cardsChosenIds.length = 0;
