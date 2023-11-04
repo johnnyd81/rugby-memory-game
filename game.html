@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./game.css" />
+    <title>Card page</title>
+  </head>
+  <body>
+    <div class="modalBox">
+      <div class="modal">
+        <p class="msg">
+          Sorry, unfortunately the timer has stopped. To retry click the restart
+          button.
+        </p>
+        <div class="actions">
+          <button type="button" class="cancel">
+            <a href="index.html">Cancel</a>
+          </button>
+          <button type="button" class="restart">Restart game</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h2 class="timer">Game timer: <span class="timerNumber">50</span></h2>
+    </header>
+
+    <section class="main"></section>
+    <script src="./app.js"></script>
+  </body>
+</html>

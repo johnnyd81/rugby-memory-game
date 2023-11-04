@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  font-family: "Tilt Neon", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./pics/grass.jpeg");
+  background-size: center;
+}
+
+header {
+  text-align: center;
+}
+
+.heading {
+  color: rgb(226, 195, 117);
+  text-shadow: 2px 2px 3px black;
+}
+
+.info {
+  width: fit-content;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.startBtn {
+  background-color: crimson;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.startBtn:hover {
+  background-color: teal;
+}
