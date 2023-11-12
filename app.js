@@ -94,7 +94,7 @@ let cardsChosen = [];
 let cardsChosenIds = [];
 let cardsWon = [];
 
-//the interval timer sets the timing of the game and what should happen at certain points of the game
+//the interval timer sets the timing of the game and certain events are triggered during different phases of the game
 let gameTimer = setInterval(() => {
   let time = timer.textContent;
   time -= 1;
