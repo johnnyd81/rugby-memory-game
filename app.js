@@ -66,7 +66,7 @@ let cardsArray = [
   },
 ];
 
-//function to randomly place cards on the board
+//function to randomly position the cards on the board
 function shuffleCards(arr) {
   let currCard = arr.length - 1;
   while (currCard != 0) {
@@ -92,6 +92,7 @@ let restart = document.querySelector(".restart");
 //the three arrays below keep track of the selected cards and whether they match or not
 let cardsChosen = [];
 let cardsChosenIds = [];
+//the cardsWon array keeps track of cards that are already matched up
 let cardsWon = [];
 
 //the interval timer sets the timing of the game and certain events are triggered during different phases of the game
