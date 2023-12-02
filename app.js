@@ -1,4 +1,4 @@
-//array of different card objects i.e. name and image of each card
+//array of different card objects i.e. name and image of each card in the game
 let cardsArray = [
   {
     name: "player1",
