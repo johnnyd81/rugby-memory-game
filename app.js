@@ -80,7 +80,7 @@ function shuffleCards(arr) {
   return arr;
 }
 
-//the variables to manipulate the DOM
+//the variables needed to manipulate the DOM
 let gameDisplay = document.querySelector(".main");
 let timeBox = document.querySelector(".timer");
 let timer = document.querySelector(".timerNumber");
