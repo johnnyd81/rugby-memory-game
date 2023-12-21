@@ -38,7 +38,7 @@ body {
   border-radius: 6px;
   margin: 17% auto;
 }
-
+/*styles the modal that appears when a user wins the game*/
 .winModal {
   display: flex;
   flex-direction: column;
@@ -85,6 +85,7 @@ body {
   color: white;
 }
 
+/*adds style to the timer element*/
 .timer {
   color: white;
   display: flex;
