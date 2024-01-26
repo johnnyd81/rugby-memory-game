@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* main game background image*/
 body {
   background-image: url("./pics/grass.jpeg");
   background-size: center;
