@@ -67,6 +67,7 @@ let cardsArray = [
 ];
 
 //function to randomly place the cards on the game board
+//the function is called when the webpage is loaded
 function shuffleCards(arr) {
   let currCard = arr.length - 1;
   while (currCard != 0) {
