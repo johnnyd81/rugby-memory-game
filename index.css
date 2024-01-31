@@ -42,7 +42,7 @@ a {
   padding: 5px;
   border-radius: 7px;
 }
-
+/* the button's background-color changes when a user's mouse cursor hovers over it */
 .startBtn:hover {
   background-color: teal;
 }
