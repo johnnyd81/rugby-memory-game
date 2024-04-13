@@ -1,4 +1,4 @@
-//array of different player card objects i.e. names and images of the pairs of cards used in the game ui
+// array of different player card objects i.e. names and images of the pairs of cards used in the game ui
 let cardsArray = [
   {
     name: "player1",
@@ -81,7 +81,7 @@ function shuffleCards(arr) {
   return arr;
 }
 
-//the variables needed to manipulate the DOM
+// the variables required to manipulate the DOM
 let gameDisplay = document.querySelector(".main");
 let timeBox = document.querySelector(".timer");
 let timer = document.querySelector(".timerNumber");
@@ -90,13 +90,13 @@ let modal = document.querySelector(".modal");
 let msg = document.querySelector(".msg");
 let restart = document.querySelector(".restart");
 
-//the three arrays below keep track of the selected cards and whether they match or not
+// the three arrays below keep track of the selected cards and whether they match or not
 let cardsChosen = [];
 let cardsChosenIds = [];
 //the cardsWon array keeps track of cards that are already matched up
 let cardsWon = [];
 
-//the interval timer sets the timing of the game and certain events are triggered during different phases of the game
+// the interval timer sets the timing of the game and certain events are triggered during different phases of the game
 let gameTimer = setInterval(() => {
   let time = timer.textContent;
   time -= 1;
