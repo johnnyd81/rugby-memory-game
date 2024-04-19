@@ -13,7 +13,7 @@ body {
   background-size: center;
 }
 
-/* positions the modal on top of the viewport so it isn't visible to the user */
+/* positions the modal on top of the viewport so it isn't visible to the user until the timer hits 0*/
 .modalBox {
   position: absolute;
   top: -100%;
