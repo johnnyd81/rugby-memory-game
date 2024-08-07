@@ -1,12 +1,14 @@
 /* custom google font import */
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 
+/* using an asterisk selector applies the style declaration globally to all elements */
 * {
   font-family: "Tilt Neon", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 /* main game background image style declaration*/
 body {
   background-image: url("./pics/grass.jpeg");
