@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* main background image*/
+/* main background image style declaration */
 body {
   background-image: url("./pics/grass.jpeg");
   background-size: center;
