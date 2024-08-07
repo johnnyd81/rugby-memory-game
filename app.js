@@ -142,7 +142,7 @@ function checkMatch() {
   }
 }
 
-//adds the different cards to the board by looping over the cardsArray and adding each card to the screen
+//adds the different cards to the board by looping over the cardsArray and adding each card to the user interface
 function createBoard() {
   for (let i = 0; i < cardsArray.length; i++) {
     let card = document.createElement("img");
