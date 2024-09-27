@@ -30,7 +30,7 @@ body {
   transition: 0.5s;
 }
 
-/* modal that descends from the top of the webpage when the game timer expires*/
+/* modal that descends from the top of the webpage when the game timer expires without completing the game*/
 .modal {
   display: flex;
   flex-direction: column;
