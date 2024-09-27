@@ -12,6 +12,7 @@ body {
   background-size: center;
 }
 
+/* Center aligns the header */
 header {
   text-align: center;
 }
