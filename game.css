@@ -21,6 +21,7 @@ body {
   top: -100%;
 }
 
+/*apply these styles if an element is active*/
 .active {
   position: fixed;
   top: 0%;
