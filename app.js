@@ -74,6 +74,7 @@ function shuffleCards(arr) {
     let randomCard = Math.floor(Math.random() * arr.length);
     currCard -= 1;
 
+    //shuffle the cards
     let tempCard = arr[currCard];
     arr[currCard] = arr[randomCard];
     arr[randomCard] = tempCard;
