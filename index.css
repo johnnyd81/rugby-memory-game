@@ -1,7 +1,7 @@
 /*import a custom font from google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 
-/* apply style to all elements*/
+/* apply style to all elements in the app*/
 * {
   font-family: "Tilt Neon", sans-serif;
   box-sizing: border-box;
