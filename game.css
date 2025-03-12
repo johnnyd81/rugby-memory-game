@@ -21,7 +21,7 @@ body {
   top: -100%;
 }
 
-/*apply these styles if an element has the active class*/
+/*apply these styles if an element has the active class in it's classlist*/
 .active {
   position: fixed;
   top: 0%;
